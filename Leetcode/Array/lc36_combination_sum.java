@@ -1,3 +1,9 @@
+/*
+* Given a set of candidate numbers (C) (without duplicates) and a target number (T), 
+* find all unique combinations in C where the candidate numbers sums to T.
+* The same repeated number may be chosen from C unlimited number of times.
+* use backtracking algorithm.
+*/
 class Solution {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> result = new ArrayList<>();
