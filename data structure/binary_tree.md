@@ -1,6 +1,7 @@
 ## Binary Tree
 ### Different Order
 For a tree:
+
 1
 
 2     3
