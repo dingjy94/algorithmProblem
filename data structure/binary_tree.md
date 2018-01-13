@@ -2,11 +2,7 @@
 ### Different Order
 For a tree:
 
-1
 
-2     3
-
-4,5
 
 - **Inorder(Left, Root, Right):**  4 2 5 1 3
 - **Preorder (Root, Left, Right):** 1 2 4 5 3
