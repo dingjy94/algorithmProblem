@@ -1,7 +1,9 @@
 /**
-* Given an array of integers, 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
+* Given an array of integers, 1 ≤ a[i] ≤ n (n = size of array), 
+* some elements appear twice and others appear once.
 * Find all the elements that appear twice in this array.
-* do it without extra space and in O(n) runtime
+* do it without extra space and in O(n) runtime.
+* Idea: if a[i] == n, turn a[n - 1] to negative; then, if a[i] is negative, a[i] is duplicate.
 */
 class Solution {
     public List<Integer> findDuplicates(int[] nums) {
