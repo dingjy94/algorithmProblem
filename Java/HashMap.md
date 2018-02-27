@@ -7,3 +7,7 @@ Loop all entry in ```Map```. The ```entrySet()``` method declared by the Map int
 
 ```boolean equals(Object obj)```: Returns true if obj is a ```Map.Entry``` whose key and value are equal to that of the invoking object.
 ```getKey(), getValue(), hashCode(), setValue()```
+
+### HashSet
+```boolean HashSet.add(E e)```: for HashMap and HashTable is put; return 1 if can add
+
