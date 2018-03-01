@@ -7,6 +7,7 @@ Loop all entry in ```Map```. The ```entrySet()``` method declared by the Map int
 
 ```boolean equals(Object obj)```: Returns true if obj is a ```Map.Entry``` whose key and value are equal to that of the invoking object.
 ```getKey(), getValue(), hashCode(), setValue()```
+
 ```public V put(K key, V value)```: Return the previous value associated with key, or null if there was no mapping for key
 
 
