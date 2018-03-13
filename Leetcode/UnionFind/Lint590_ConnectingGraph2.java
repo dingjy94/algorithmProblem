@@ -3,6 +3,7 @@
 * You need to support the following method:
 * 1. connect(a, b), an edge to connect node a and node b
 * 2. query(a), Returns the number of connected component nodes which include node a.
+* Tip: use same langth array to store information;
 */
 
 public class ConnectingGraph2 {
