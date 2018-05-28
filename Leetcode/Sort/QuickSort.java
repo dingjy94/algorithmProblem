@@ -16,6 +16,7 @@ public class Solution {
         int right = end;
         int pivot = A[(left + right) / 2];
         while (left < right) {
+            // if same number exists, puts == in one condition(<= or >=);
             while (left <= right && A[left] < pivot) {
                 left++;
             }
