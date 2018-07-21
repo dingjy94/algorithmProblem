@@ -9,3 +9,7 @@
 - **Object set(int index, Object new)**
 - **List subList(int from, int to)**
 - **int size()**
+
+#### 2. Array & List
+- Array to List: `Arrays.asList(array)`
+- List to Array: `list.toArray()`
