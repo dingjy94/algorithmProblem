@@ -1,5 +1,6 @@
 /**
  * lc295 Find Median from Data Stream
+ * two heap to store two half of all integers
  */
  
 class MedianFinder {
